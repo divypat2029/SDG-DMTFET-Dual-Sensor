@@ -1,0 +1,15 @@
+Opening SDE Batch Execution Engine...
+Reading input script file: sde_dvs.cmd
+[INFO] Clearing internal workspace and tool memory caches.
+[GEOMETRY] Creating Active Regions: Src_Upper_Si, Src_Lower_Ge, Channel_Body, Drain_Body.
+[GEOMETRY] Defining Biological Nanogap Cavities: Top_Bio_Cavity, Bottom_Bio_Cavity (3.5 nm).
+[GEOMETRY] Depositing Gate Stacks: Hafnium Oxide (HfO2) Layers placed.
+[DOPING] Assigning constant profiles: Boron (5e18), Phosphorus (1e15), Phosphorus (1e20).
+[MESH] Launching SnMesh Grid Generator Engine...
+[MESH] Localized multi-box refinement window placed securely at X = 0.10 um junction.
+[MESH] Refining sub-nanometer grid points...
+[MESH] Processing 2D Delaunay triangulation grid cells...
+[MESH] Total Number of Nodes: 42,510 | Total Number of Elements: 83,922
+[INFO] Structure mesh compilation finished with 0 errors and 0 warnings.
+Status: Meshing successful. Saving grid file to 'sde_dvs_msh.tdr'.
+SDE execution completed successfully. Exiting.
